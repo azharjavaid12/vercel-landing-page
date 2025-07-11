@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task Management System</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #eef2f3, #dfe9f3);
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: #ffffff;
+      padding: 2.5rem;
+      border-radius: 12px;
+      max-width: 720px;
+      width: 100%;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: #555;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      color: #444;
+      text-align: left;
+      margin: 1rem 0 2rem 0;
+    }
+
+    ul li::before {
+      content: '✔';
+      color: #0070f3;
+      margin-right: 0.6rem;
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.8rem 1.6rem;
+      background-color: #0070f3;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+
+    a.button:hover {
+      background-color: #005bd1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 Simple Task Management System</h1>
+    <p>A clean and efficient Django-based web application that allows users to:</p>
+    <ul>
+      <li>Register and log in</li>
+      <li>Manage tasks (Create, Read, Update, Delete)</li>
+      <li>Use secure token-based authentication</li>
+      <li>Export tasks to CSV or Excel</li>
+    </ul>
+    <p>Access the full source code and documentation below:</p>
+    <a href="https://github.com/azharjavaid12/task-management-systemmm.git" class="button" target="_blank">View on GitHub</a>
+  </div>
+</body>
+</html>
